@@ -19,9 +19,11 @@ from PySide6.QtWidgets import (
     QWidget,
 )
 
+from icons import APP_ICON_PATH
+
 BASE_DIR = Path(__file__).resolve().parent
 APP_DIR = BASE_DIR
-ICON_PATH = BASE_DIR / "icons" / "icon.ico"
+ICON_PATH = APP_ICON_PATH
 TEACHER_AVATAR_ICONS = {
     "ذكر": BASE_DIR / "icons" / "teacher_male.svg",
     "أنثى": BASE_DIR / "icons" / "teacher_female.svg",
